@@ -1,12 +1,11 @@
 /*
-https://www.geeksforgeeks.org/problems/number-following-a-pattern3126/1
 Number following a pattern
+https://www.geeksforgeeks.org/problems/number-following-a-pattern3126/1
 */
 
 class Solution{   
 public:
     string printMinNumberForPattern(string S){
-        // code here 
         string ans="";
         for(int i=1;i<=S.size()+1;i++){
             ans+= '0'+i;
@@ -26,8 +25,9 @@ public:
               j++;
               k++;
             }
-            if(f==true)break;
+            if(f==true) break;
         }
         return ans;
     }
 };
+ 
